@@ -6,7 +6,7 @@ public class task_3 {
      * Если общего префикса нет, вернуть пустую строку "".
      */
     public static void main(String[] args) {
-        String[] array = {"abc", "abcdf", "abcqqqq", "abceee"};
+        String[] array = {"abc", "abcdf", "abcqqqq", "abeee"};
 
         String commonPrefix = findCommonPrefix(array);
 
