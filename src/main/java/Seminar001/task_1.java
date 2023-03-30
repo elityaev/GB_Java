@@ -1,4 +1,4 @@
-package org.example;
+package Seminar001;
 
 public class task_1 {
     /**

@@ -1,4 +1,4 @@
-package seminar_2;
+package Seminar002;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
