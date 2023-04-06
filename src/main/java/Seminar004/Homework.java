@@ -28,7 +28,7 @@ public class Homework {
         List<String> list = new ArrayList<>();
 
         Scanner sc = new Scanner(System.in);
-       exit: while (true)  {
+        exit: while (true)  {
             String s = sc.nextLine();
             String[] split = s.split("~");
             if (split.length < 2) {
