@@ -1,5 +1,7 @@
 package OOP_Seminar001;
 
+import OOP_Seminar002.SaveToFileImpl;
+
 public class Program {
   public static void main(String[] args) {
     Person person = new Person("Иван Петрович", 30, Gender.male);
@@ -23,5 +25,9 @@ public class Program {
 
     System.out.println(child1FamilyTree);
     System.out.println(child2FamilyTree);
+
+    SaveToFileImpl save = new SaveToFileImpl();
+    save.saveToFile(String.valueOf(personFamilyTree));
+
   }
 }

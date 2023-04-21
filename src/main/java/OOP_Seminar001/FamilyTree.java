@@ -1,14 +1,12 @@
 package OOP_Seminar001;
 
-import org.w3c.dom.ls.LSOutput;
+import OOP_Seminar002.SaveToFile;
 
-import javax.crypto.spec.PSource;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FamilyTree {
+public class FamilyTree extends Tree implements AddRelation, SaveToFile {
 
-    private Person person;
     private Person spouse;
     private Person father;
     private Person mather;
