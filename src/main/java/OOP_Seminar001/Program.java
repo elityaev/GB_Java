@@ -14,7 +14,7 @@ public class Program {
     System.out.println(person);
 
     FamilyTree personFamilyTree = new FamilyTree(person);
-    personFamilyTree.addSpouse(spouse);
+//    personFamilyTree.addSpouse(spouse);
     FamilyTree child1FamilyTree =  personFamilyTree.addChild(child1);
     FamilyTree child2FamilyTree = personFamilyTree.addChild(child2);
     personFamilyTree.addFather(father);
