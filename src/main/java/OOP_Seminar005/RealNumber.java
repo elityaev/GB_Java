@@ -13,4 +13,7 @@ public class RealNumber extends number {
                 x +
                 '}';
     }
+
+    public void getNum() {
+    }
 }
