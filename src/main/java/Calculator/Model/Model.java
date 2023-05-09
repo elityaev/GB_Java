@@ -7,9 +7,6 @@ public interface Model<E extends CalcNumber> {
     E diff();
     E mult();
     E div();
-    void setNumberX(E numberX);
-
-    void setNumberY(E numberY);
 
     E getOperation(String operator);
 }
