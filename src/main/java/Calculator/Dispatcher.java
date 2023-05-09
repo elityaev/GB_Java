@@ -44,7 +44,6 @@ public class Dispatcher<C extends CalcModel, V extends View> {
         System.out.println("*: умножение");
         System.out.println("/: деление");
         String operator = in.next();
-
         return operator;
     }
 }
